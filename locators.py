@@ -42,5 +42,17 @@ class Locators:
     CONSTRUCTOR_BUTTON_PERSONAL_ACCOUNT_SCREEN = (By.XPATH, '//a[@href="/"]/p[@class="AppHeader_header__linkText__3q_va ml-2"]')
         # Заголовок "Соберите бургер" на странице конструктора
     HEADER_CONSTRUCT_BURGER_CONSTRUCTOR_PAGE = (By.XPATH, '//h1[@class="text text_type_main-large mb-5 mt-10"]')
-        # Логотип Stellar Burgers
+        # Логотип Stellar Burgers на странице личного кабинета
     LOGO_STELLAR_BURGERS_PERSONAL_ACCOUNT_SCREEN = (By.XPATH, '//div/a[@href="/"]')
+        # Кнопка "Булки" на главной странице
+    ROLLS_BUTTON_MAIN_SCREEN = (By.XPATH, '//div[1]/span[@class="text text_type_main-default"]')
+        # Кнопка "Соусы" на главной странице
+    SAUCES_BUTTON_MAIN_SCREEN = (By.XPATH, '//div[2]/span[@class="text text_type_main-default"]')
+        # Кнопка "Начинки" на главной странице
+    FILLING_BUTTON_MAIN_SCREEN = (By.XPATH, '//div[3]/span[@class="text text_type_main-default"]')
+        # Раздел "Булки" на главной странице
+    ROLLS_SECTION_MAIN_SCREEN = (By.XPATH, '//div[1]/span[@class="text text_type_main-default"]/parent::div')
+        # Раздел "Соусы" на главной странице
+    SAUCES_SECTION_MAIN_SCREEN = (By.XPATH, '//div[2]/span[@class="text text_type_main-default"]/parent::div')
+        # Раздел "Начинки" на главной странице
+    FILLING_SECTION_MAIN_SCREEN = (By.XPATH, '//div[3]/span[@class="text text_type_main-default"]/parent::div')
